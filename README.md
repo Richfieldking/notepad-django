@@ -12,7 +12,7 @@ Models(
 
     get_delete_url[return to the link of the particular note to be deleted /notes/{}/delete, self.pk]
 
-    get_delete_url[return to the link of the particular note to be updated /notes/{}/update, self.pk]
+    get_update_url[return to the link of the particular note to be updated /notes/{}/update, self.pk]
 
 Add a user model to the note models by importing settings from django.conf
 
